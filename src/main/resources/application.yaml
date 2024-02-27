@@ -1,0 +1,10 @@
+spring:
+  graphql:
+    graphiql:
+      path: /graphiql
+      enabled: true
+#    cors:
+#      allowed-origins: *
+    path: /graphql
+    websocket:
+      path: /subscription
